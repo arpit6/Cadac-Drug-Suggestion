@@ -1,0 +1,30 @@
+{
+    "Drug": [
+        "arthrotec",
+        "crestor",
+        "lipitor",
+        "tylenol3",
+        "zocar"
+    ],
+    "Symptoms/Diseases": [
+        "blockage",
+        "shoulder pain",
+        "torn rotator cuff"
+    ],
+    "ADEs": [
+        "bowel/uterine cramping",
+        "cramp",
+        "cramping in back muscles",
+        "cramping in calves",
+        "cramping in hamstrings",
+        "difficulty with memory",
+        "inflammation",
+        "losing strength",
+        "pain",
+        "severe abdominal pain",
+        "severe back spasm",
+        "severe muscle pain in shoulders",
+        "severe pain",
+        "shoulder pain"
+    ]
+}
