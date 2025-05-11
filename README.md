@@ -1,4 +1,4 @@
-# Cadac Drug Suggestion Project
+# Cadec Drug Suggestion Project
 
 This project aims to suggest drug names, diseases/symptoms, and adverse drug events (ADEs) in response to medical-related queries using Hugging Face large language models (LLMs). When relevant data is found, the results are returned in a structured JSON format and saved to a file for further use.
 
@@ -6,7 +6,7 @@ This project aims to suggest drug names, diseases/symptoms, and adverse drug eve
 
 ### 1: Data Extraction 
 
-* Extracted annotated information from the CADEC dataset, available in the Cadac/Original directory.
+* Extracted annotated information from the CADEC dataset, available in the Cadec/Original directory.
 * Parsed the .ann files and consolidated drug names, diseases, symptoms, and adverse drug reactions (ADRs) into separate columns in a structured CSV format.
 * Each annotation file corresponds to one row in the CSV file.
 * Output file: data_set.csv
