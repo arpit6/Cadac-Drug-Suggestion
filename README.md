@@ -76,4 +76,63 @@ This project aims to suggest drug names, diseases/symptoms, and adverse drug eve
     }
     ```
 * **Example Output:**
-![title-suggestions.png](images/shoulder_pain.png)
+![title-suggestions.png](images/example1.png)
+
+
+**Example 2**
+
+* **Query:** `Experiencing vaginal bleeding and uterine contractions.`
+
+* **Response:**
+    ```json
+    {
+        "Drug": [
+            "advil",
+            "arthrotec",
+            "birthcontrolpill"
+        ],
+        "Symptoms/Diseases": [
+            "abortion",
+            "endo pain"
+        ],
+        "ADEs": [
+            "severe mentrual cramps",
+            "so much pain"
+        ]
+    }
+    ```
+* **Example Output:**
+![title-suggestions.png](images/example2.png)
+
+
+**Example 3**
+
+* **Query:** `Initially noticed thigh twitching and assumed it was in my mind due to being a nurse. By week five, developed severe ankle pain that made walking difficult. Visited my podiatrist (previously seen for plantar fasciitis) and was informed that the bones in my foot are collapsing.`
+
+* **Response:**
+    ```json
+    {
+        "Drug": [
+            "arthrotec",
+            "voltaren"
+        ],
+        "Symptoms/Diseases": [
+            "aches",
+            "arthritis",
+            "discomfort",
+            "mobility",
+            "pain",
+            "pain in my foot",
+            "plantar fasciitis",
+            "tendonitis"
+        ],
+        "ADEs": [
+            "ankle swelling",
+            "diahrea",
+            "leg cramps",
+            "lower tendon pain"
+        ]
+    }
+    ```
+* **Example Output:**
+![title-suggestions.png](images/example3.png)
